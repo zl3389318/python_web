@@ -24,6 +24,6 @@ def register():
     return render_template("user_register.html")
 
 #我有写了一行注释,我要提交了啊
-
+print("hello")
 if __name__== '__main__':
     app.run()
